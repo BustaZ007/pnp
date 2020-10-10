@@ -1,0 +1,156 @@
+@import url('../fonts/Formular/stylesheet.css');
+body {
+    margin: 0%;
+    padding: 0%;
+    min-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Formular';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* navigation bar  */
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+}
+
+.nav-bar__list {
+    margin: 0px;
+    background-color: #d43220;
+}
+
+.nav-bar__list__element {
+    display: inline-flex;
+    padding: 15px;
+}
+
+
+/* header */
+
+.header {
+    padding-top: 56px;
+    flex-direction: row;
+    display: flex;
+    width: 1200px;
+    height: 340px;
+}
+
+.header__csu {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d43220;
+    color: white;
+    border-top: white;
+}
+
+.header__csu__full {
+    font-size: 25px;
+    padding: 30px;
+    padding-left: 70px;
+}
+
+.header__csu__abr {
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 80px;
+    padding-left: 70px;
+    width: fit-content;
+}
+
+.header__label {
+    width: 260px;
+}
+
+.header__label__img {
+    background-color: #fca62d;
+    height: 200px;
+}
+
+.header__label__img-labelCSU {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.header__label__site {
+    background-color: #6226a6;
+    height: 140px;
+    color: #fca62d;
+}
+
+.header__label__site-text {
+    padding-top: 105px;
+    display: inline-flex;
+    padding-left: 15px;
+}
+
+.header__image {
+    padding: 0%;
+    /* background-image: url('../images/que-significa-el-azul-wide.jpg'); */
+}
+
+.heading {
+    padding: 15px;
+    display: flex;
+    margin-top: 3px;
+    flex-direction: column;
+    background-color: #d43220;
+    color: white;
+    font-size: 40px;
+    border-top: white;
+    text-align: center;
+}
+
+
+/* Home */
+
+.home {
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #555555;
+}
+
+.just-header {
+    font-size: 40px;
+    font-weight: 450;
+    display: flex;
+    justify-content: center;
+}
+
+.just-text {
+    padding-top: 30px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.aim {
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #555555;
+    background-color: #eeeeee;
+}
