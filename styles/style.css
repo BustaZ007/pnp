@@ -2,7 +2,6 @@
 body {
     margin: 0%;
     padding: 0%;
-    min-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Formular';
@@ -14,12 +13,10 @@ a {
 }
 
 .content {
-    width: 1200px;
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
 }
 
 
@@ -44,17 +41,30 @@ a {
 
 /* header */
 
+.header-back {
+    background-color: rgba(212, 50, 32, 0.8);
+    width: 100%;
+    margin-top: 57px;
+}
+
 .header {
-    padding-top: 56px;
     flex-direction: row;
     display: flex;
-    width: 1200px;
     height: 340px;
+    /* margin: 0 auto; */
+    justify-content: space-between;
+}
+
+.header-block {
+    flex-direction: row;
+    display: flex;
+    width: 600px;
 }
 
 .header__csu {
     width: 600px;
     display: flex;
+    height: 340px;
     flex-direction: column;
     background-color: #d43220;
     color: white;
@@ -103,13 +113,16 @@ a {
 }
 
 .header__image {
+    height: 340px;
+    width: 100%;
     padding: 0%;
-    /* background-image: url('../images/que-significa-el-azul-wide.jpg'); */
+    background-image: url('../images/YwvlFyDkenA.jpg');
 }
 
 .heading {
-    padding: 15px;
+    padding: 15px 0;
     display: flex;
+    width: 100%;
     margin-top: 3px;
     flex-direction: column;
     background-color: #d43220;
@@ -132,18 +145,22 @@ a {
 
 .just-header {
     font-size: 40px;
+    width: 1200px;
     font-weight: 450;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .just-text {
+    width: 1200px;
     padding-top: 30px;
     display: flex;
     font-size: 25px;
     justify-content: center;
     text-align: center;
     padding-bottom: 55px;
+    margin: 0 auto;
 }
 
 .aim {
@@ -152,5 +169,6 @@ a {
     flex-direction: column;
     justify-content: center;
     color: #555555;
+    width: 100%;
     background-color: #eeeeee;
 }
