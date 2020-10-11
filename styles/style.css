@@ -17,6 +17,7 @@ a {
     flex-direction: column;
     align-self: center;
     align-items: center;
+    min-width: 1440px;
 }
 
 
@@ -110,13 +111,19 @@ a {
     padding-top: 105px;
     display: inline-flex;
     padding-left: 15px;
+    color: #fca62d;
+}
+
+.header__label__site-text:hover {
+    font-size: 17px;
 }
 
 .header__image {
     height: 340px;
     width: 100%;
     padding: 0%;
-    background-image: url('../images/YwvlFyDkenA.jpg');
+    overflow: hidden;
+    /* background-image: url('../images/YwvlFyDkenA.jpg'); */
 }
 
 .heading {
@@ -130,6 +137,15 @@ a {
     font-size: 40px;
     border-top: white;
     text-align: center;
+}
+
+.header__image-girl {
+    width: 100%;
+    /* Ширина изображений */
+    height: 100%;
+    /* Высота изображении */
+    object-fit: cover;
+    /* Вписываем фотографию в область */
 }
 
 
