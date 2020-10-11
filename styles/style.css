@@ -18,7 +18,7 @@ a {
     flex-direction: column;
     align-self: center;
     align-items: center;
-    min-width: 1440px;
+    min-width: 1270px;
 }
 
 
@@ -401,4 +401,13 @@ a {
 
 .contacts__content {
     font-size: 20px;
+}
+
+
+/* 1540 */
+
+@media (max-width: 1535px) {
+    .header-back {
+        margin-top: 112px;
+    }
 }
