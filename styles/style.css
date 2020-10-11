@@ -319,3 +319,83 @@ a {
     width: 100%;
     /* background-color: rgba(252, 166, 45, 0.1); */
 }
+
+#venue, #feesm, #request, #contacts{
+    width: 100%;
+}
+
+.venue__content{
+    padding-bottom: 15px;
+}
+
+.venue__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.venue__map{
+    width: 100%;
+    height: 500px;
+}
+
+.venue__name{
+    width: 100%;
+    background-color: #d43220;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.fees__content, .contacts__content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.fees__table_fees{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.fees__span{
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+}
+
+.fees__span_red{
+    color: #d43220;
+}
+
+.fees__table_dates{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.fees__span_bold{
+    font-weight: bolder;
+}
+
+.request__a{
+    padding: 20px;
+    color: white;
+    background-color: #d43220;
+    border-radius: 3px;
+}
+
+.request__a:hover{
+    background-color: rgba(212, 50, 32, 0.8);
+    transition: 0.5s;
+    color: #000;
+}
+
+.request__div{
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 100px 0;
+}
+
+.contacts__content{
+    font-size: 20px;
+}
