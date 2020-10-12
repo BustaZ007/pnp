@@ -40,6 +40,12 @@ a {
     padding: 15px;
 }
 
+.switch-lang {
+    font-size: 13px;
+    padding: 0;
+    text-align: start;
+}
+
 
 /* header */
 
@@ -194,6 +200,16 @@ a {
     background-color: rgba(212, 50, 32, 0.2);
 }
 
+.committee {
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #555555;
+    width: 100%;
+    background-color: rgba(212, 50, 32, 0.2);
+}
+
 
 /* Information */
 
@@ -334,7 +350,8 @@ a {
 #venue,
 #fees,
 #request,
-#contacts {
+#contacts,
+#committee {
     width: 100%;
 }
 
@@ -362,6 +379,7 @@ a {
 }
 
 .fees__content,
+.committee__content,
 .contacts__content {
     width: 1200px;
     margin: 0 auto;
@@ -378,16 +396,23 @@ a {
     border-top: 1px solid #ddd;
 }
 
+.committee__span {
+    padding: 15px 0;
+    border-top: 1px solid gray;
+}
+
 .fees__span_red {
     color: #d43220;
 }
 
-.fees__table_dates {
+.fees__table_dates,
+.committee__table {
     padding-top: 20px;
     font-size: 25px;
 }
 
-.fees__span_bold {
+.fees__span_bold,
+.committee__span_bold {
     font-weight: bolder;
 }
 
@@ -418,8 +443,14 @@ a {
 
 /* 1540 */
 
-@media (max-width: 1535px) {
-    .header-back {
+@media (max-width: 1525px) {
+    .english {
+        margin-top: 112px;
+    }
+}
+
+@media (max-width: 1508px) {
+    .rus {
         margin-top: 112px;
     }
 }
