@@ -207,8 +207,20 @@ a {
     /* background-color: rgba(252, 166, 45, 0.1); */
 }
 
+.line {
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    width: 100%;
+    display: flex;
+}
+
+.botom-line {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
 .information__h-1 {
-    padding-top: 30px;
+    padding-top: 15px;
     font-size: 35px;
     width: 1200px;
     font-weight: 400;
