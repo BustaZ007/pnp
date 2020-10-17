@@ -28,9 +28,11 @@ a {
     position: fixed;
     width: 100%;
     font-size: 20px;
+    display: inline-flex;
 }
 
 .nav-bar__list {
+    flex: 1;
     margin: 0px;
     background-color: #d43220;
 }
@@ -44,6 +46,19 @@ a {
     font-size: 13px;
     padding: 0;
     text-align: start;
+}
+
+.language {
+    padding: 0;
+    width: 170px;
+    height: 55px;
+    background-color: #000;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.active {
+    opacity: 0.3;
 }
 
 
@@ -443,14 +458,21 @@ a {
 
 /* 1540 */
 
-@media (max-width: 1525px) {
+@media (max-width: 1472px) {
+    .rus,
     .english {
         margin-top: 112px;
     }
-}
-
-@media (max-width: 1508px) {
-    .rus {
-        margin-top: 112px;
+    .language {
+        padding: 0;
+        width: 88px;
+        height: 110px;
+        background-color: #000;
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: flex-end; */
+    }
+    .language a {
+        height: 55px;
     }
 }
