@@ -9,16 +9,20 @@
 </head>
 
 <body>
+    <div class="show-nav-bar">
+        <div class="closer-nav-bar"></div>
+    </div>
+
     <div class="nav-bar">
         <ul class="nav-bar__list">
-            <li class="nav-bar__list__element"><a href="#home">О конференции</a></li>
-            <li class="nav-bar__list__element"><a href="#publishing-opportunities">Публикация</a></li>
-            <li class="nav-bar__list__element"><a href="#program">Программа</a></li>
-            <li class="nav-bar__list__element"><a href="#committee">Оргкоммитет</a></li>
-            <li class="nav-bar__list__element"><a href="#venue">Место</a></li>
-            <li class="nav-bar__list__element"><a href="#fees">Взносы и даты</a></li>
-            <li class="nav-bar__list__element"><a href="#request">Подать заявку</a></li>
-            <li class="nav-bar__list__element"><a href="#contacts">Контакты</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#home">О конференции</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#publishing-opportunities">Публикация</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#program">Программа</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#committee">Оргкоммитет</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#venue">Место</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#fees">Взносы и даты</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#request">Подать заявку</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#contacts">Контакты</a></li>
         </ul>
         <div class="language">
             <svg class="active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 6" width="82" height="55"><rect fill="#fff" width="9" height="3"/><rect fill="#d52b1e" y="3" width="9" height="3"/><rect fill="#0039a6" y="2" width="9" height="2"/></svg>
@@ -120,8 +124,10 @@
             <div class="information__participants information__h-1">
                 <span class='line'>Участники:</span>
             </div>
-            <div class="information__text information__participants__text">
-                К участию в конференции приглашаются ученые, преподаватели, аспиранты, докторанты, специалисты-практики, ведущие научные исследования и практическую деятельность в области психологии, психотерапии, дефектологии, социального обслуживания населения.
+            <div class="information__text">
+                <span class="information__participants__text">
+                    К участию в конференции приглашаются ученые, преподаватели, аспиранты, докторанты, специалисты-практики, ведущие научные исследования и практическую деятельность в области психологии, психотерапии, дефектологии, социального обслуживания населения.
+                </span>
             </div>
 
             <div class="include information__form-of-conducting">
@@ -148,9 +154,11 @@
 
             </div>
 
-            <div class="information__form-of-work">
+            <div class="include information__form-of-work">
                 <div class="information__h-1 information__form-of-work__h">
-                    Формы работы конференции:
+                    <span>
+                        Формы работы конференции:
+                    </span>
                 </div>
                 <div class="information__text information__form-of-work__text">
                     Пленарное и секционные заседания, мастер-классы, круглые столы.
@@ -207,7 +215,6 @@
 
         <div id="committee" class="committee">
             <div class="committee__content">
-
                 <span class="just-header">Организационный коммитет</span>
                 <div class="committee__table">
                     <div class="committee__span">
@@ -440,6 +447,7 @@
             </div>
         </div>
     </div>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>

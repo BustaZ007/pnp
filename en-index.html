@@ -9,16 +9,20 @@
 </head>
 
 <body>
+    <div class="show-nav-bar">
+        <div class="closer-nav-bar"></div>
+    </div>
+
     <div class="nav-bar">
         <ul class="nav-bar__list">
-            <li class="nav-bar__list__element"><a href="#home">About</a></li>
-            <li class="nav-bar__list__element"><a href="#publishing-opportunities">Publication</a></li>
-            <li class="nav-bar__list__element"><a href="#program">Program</a></li>
-            <li class="nav-bar__list__element"><a href="#committee">Org. committee</a></li>
-            <li class="nav-bar__list__element"><a href="#venue">Venue</a></li>
-            <li class="nav-bar__list__element"><a href="#fees">Contributions and dates</a></li>
-            <li class="nav-bar__list__element"><a href="#request">Filing an application</a></li>
-            <li class="nav-bar__list__element"><a href="#contacts">Contacts</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#home">About</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#publishing-opportunities">Publication</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#program">Program</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#committee">Org. committee</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#venue">Venue</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#fees">Contributions and dates</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#request">Filing an application</a></li>
+            <li class="nav-bar__list__element"><a class="links" href="#contacts">Contacts</a></li>
         </ul>
         <div class="language">
             <a href="index.html">
@@ -118,8 +122,11 @@
             <div class="information__participants information__h-1">
                 <span class='line'>Participants:</span>
             </div>
-            <div class="information__text information__participants__text">
-                Scientists, scholars, graduate students, doctoral students, practitioners, leading scientific research and practical activities in the field of psychology, psychotherapy, defectology, social services of the population.
+            <div class="information__text">
+                <span class="information__participants__text">
+                    Scientists, scholars, graduate students, doctoral students, practitioners, leading scientific research and practical activities in the field of psychology, psychotherapy, defectology, social services of the population.
+                </span>
+
             </div>
 
             <div class="include information__form-of-conducting">
@@ -146,9 +153,11 @@
 
             </div>
 
-            <div class="information__form-of-work">
+            <div class="include information__form-of-work">
                 <div class="information__h-1 information__form-of-work__h">
-                    Conference forms:
+                    <span>
+                        Conference forms:
+                    </span>
                 </div>
                 <div class="information__text information__form-of-work__text">
                     Plenary sessions, parallel sessions, master classes, round tables.
@@ -206,7 +215,6 @@
 
         <div id="committee" class="committee">
             <div class="committee__content">
-
                 <span class="just-header">Organizational committee</span>
                 <div class="committee__table">
                     <div class="committee__span">
@@ -439,6 +447,7 @@
             </div>
         </div>
     </div>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
