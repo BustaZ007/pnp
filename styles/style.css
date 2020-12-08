@@ -715,16 +715,16 @@ a {
     text-align: center;
     margin: 0 auto;
     width: 100%;
-    padding: 70px 0 50px 0;
+    padding: 50px 0 100px 0;
 }
 
-.request__download {
+.publishing-opportunities__download {
     width: 600px;
     margin: 0 auto;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
-.request__download div {
+.publishing-opportunities__download div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -735,28 +735,29 @@ a {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
 }
 
-.request__download span {
+.publishing-opportunities__download span {
     margin: auto 0;
     font-size: 24px;
 }
 
-.request__download a {
-    padding: 5px;
+.publishing-opportunities__download a {
+    padding: 12px 18px;
+    font-size: 20px;
     height: -webkit-min-content;
     height: -moz-min-content;
     height: min-content;
 }
 
-.request__table {
+.publishing-opportunities__table {
     border: 1px solid #555555;
-    margin-bottom: 2px;
-    border-radius: 5px;
+    margin-bottom: 7px;
+    border-radius: 10px;
 }
 
-.request__table div {
+.publishing-opportunities__table div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1023,10 +1024,10 @@ a {
     .just-header {
         text-align: center;
     }
-    .request__download {
+    .publishing-opportunities__download {
         width: 320px;
     }
-    .request__download a {
+    .publishing-opportunities__download a {
         padding: 14px 5px;
     }
 }
