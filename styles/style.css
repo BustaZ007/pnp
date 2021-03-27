@@ -722,6 +722,7 @@ a {
     width: 600px;
     margin: 0 auto;
     padding-bottom: 30px;
+    margin-top: 30px;
 }
 
 .publishing-opportunities__download div {
@@ -769,7 +770,10 @@ a {
     -ms-flex-pack: center;
     justify-content: center;
 }
-
+.publishing-opportunities__content__h4{
+    margin: 0;
+    font-weight: 500;
+}
 .contacts__content {
     font-size: 20px;
 }
