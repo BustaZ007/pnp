@@ -711,6 +711,13 @@ a {
     color: #000;
 }
 
+.request__a:hover.disabled{
+    padding: 12px 18px;
+    color: white;
+    background-color: #d43220;
+    border-radius: 5px;
+}
+
 .request__div {
     text-align: center;
     margin: 0 auto;
@@ -778,7 +785,30 @@ a {
     font-size: 20px;
 }
 
-
+.disabled{
+    opacity: 0.5;
+}
+@media screen and (max-width: 1472px) {
+    .rus,
+    .english {
+        margin-top: 112px;
+    }
+    .language {
+        padding: 0;
+        width: 88px;
+        height: 110px;
+        background-color: #6226a6;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        /* justify-content: flex-end; */
+    }
+    .language a {
+        height: 55px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .nav-bar {
