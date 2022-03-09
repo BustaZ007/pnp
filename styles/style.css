@@ -713,8 +713,16 @@ a {
 }
 
 .committee__span {
+    display: flex;
     padding: 15px 0;
     border-top: 1px solid gray;
+}
+
+.committee__span img {
+    width: 300px;
+    height: 300px;
+    padding-right: 30px;
+    object-fit: cover;
 }
 
 .fees__span_red {
