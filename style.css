@@ -154,6 +154,7 @@ a {
     display: -ms-inline-flexbox;
     display: inline-flex;
     padding: 15px;
+    position:absolute;
 }
 
 .switch-lang {
@@ -620,7 +621,7 @@ a {
 
 #venue,
 #fees,
-#request,
+#archive,
 #contacts,
 #committee {
     width: 100%;
@@ -849,7 +850,7 @@ a {
     #committee,
     #venue,
     #fees,
-    #request,
+    #archive,
     #contacts,
     #information {
         width: 738px;
@@ -898,7 +899,7 @@ a {
     #program,
     #venue,
     #fees,
-    #request,
+    #archive,
     #contacts,
     #information {
         width: 345px;
@@ -1051,7 +1052,7 @@ a {
     #program,
     #venue,
     #fees,
-    #request,
+    #archive,
     #contacts,
     #information {
         width: 320px;

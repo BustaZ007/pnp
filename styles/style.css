@@ -154,6 +154,29 @@ a {
     display: -ms-inline-flexbox;
     display: inline-flex;
     padding: 15px;
+    position:relative;
+}
+.nav-bar__list__element:hover .collaps_menu{
+    display:block;
+}
+.collaps_menu{
+    position:absolute;
+    display: none;
+    background:white;
+    color:black;
+    top: 40px;
+    padding: 15px;
+    border-radius:8px;
+    width: 230px;
+    box-shadow: 10px 5px 5px black;
+}
+.collaps_menu a{
+    color:black;
+}
+
+.collaps_menu a:hover{
+    color: red;
+    transition: 1s easy-in-out;
 }
 
 .switch-lang {
@@ -560,7 +583,8 @@ a {
     flex-direction: column;
 }
 
-.publishing-opportunities__content__header {
+.publishing-opportunities__content__header,
+.archive__content__header {
     font-size: 35px;
     font-weight: 400;
     display: -webkit-box;
@@ -575,6 +599,17 @@ a {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+}
+.archive__content__header{
+    padding: 30px 0 0 0;
+}
+.archive_section{
+    margin-bottom: 10px;
+}
+
+.archive_photo-albums {
+    padding-left: 30px;
+    text-decoration: none;
 }
 
 .publishing-opportunities__content__text {
@@ -620,7 +655,7 @@ a {
 
 #venue,
 #fees,
-#request,
+#archive,
 #contacts,
 #committee {
     width: 100%;
@@ -711,13 +746,6 @@ a {
     color: #000;
 }
 
-.request__a:hover.disabled{
-    padding: 12px 18px;
-    color: white;
-    background-color: #d43220;
-    border-radius: 5px;
-}
-
 .request__div {
     text-align: center;
     margin: 0 auto;
@@ -729,7 +757,6 @@ a {
     width: 600px;
     margin: 0 auto;
     padding-bottom: 30px;
-    margin-top: 30px;
 }
 
 .publishing-opportunities__download div {
@@ -777,17 +804,14 @@ a {
     -ms-flex-pack: center;
     justify-content: center;
 }
-.publishing-opportunities__content__h4{
-    margin: 0;
-    font-weight: 500;
-}
+
 .contacts__content {
     font-size: 20px;
 }
 
-.disabled{
-    opacity: 0.5;
-}
+
+/* 1540 */
+
 @media screen and (max-width: 1472px) {
     .rus,
     .english {
@@ -860,7 +884,7 @@ a {
     #committee,
     #venue,
     #fees,
-    #request,
+    #archive,
     #contacts,
     #information {
         width: 738px;
@@ -909,7 +933,7 @@ a {
     #program,
     #venue,
     #fees,
-    #request,
+    #archive,
     #contacts,
     #information {
         width: 345px;
@@ -1062,7 +1086,7 @@ a {
     #program,
     #venue,
     #fees,
-    #request,
+    #archive,
     #contacts,
     #information {
         width: 320px;
