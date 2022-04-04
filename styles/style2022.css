@@ -721,8 +721,12 @@ a {
 .committee__span img {
     width: 300px;
     height: 300px;
-    padding-right: 30px;
     object-fit: cover;
+}
+.commitee_img {
+    width: 300px;
+    height: 300px;
+    padding-right: 30px;
 }
 
 .fees__span_red {
